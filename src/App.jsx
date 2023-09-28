@@ -12,10 +12,7 @@ import Login from "./page/Login"
 import About from "./page/About";
 // import Menu from './Component/Menu'
 
-import Contentstatistics from './Component/Contentstatistics'
-import Menu from './Component/Menu'
-import Content from './Component/content'
-import TextContent from './Component/TextContent'
+
 
 function App() {
   return (

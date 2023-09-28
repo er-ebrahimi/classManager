@@ -6,7 +6,7 @@ export const theme = createTheme({
       main: "#000000", // Custom primary color
     },
     secondary: {
-      main: "#f79875", // Custom secondary color
+      main: "#03A171", // Custom secondary color
     },
     fontFamily: "Montserrat",
     components: {
