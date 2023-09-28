@@ -1,0 +1,42 @@
+.Footer {
+  background-color: #fff;
+}
+
+.LogoFooter {
+  background-color: aliceblue;
+  width: 250px;
+  height: 100%;
+}
+
+.FooterList {
+  display: flex;
+  text-decoration: none;
+}
+
+.FooterList > ul {
+  list-style-type: none;
+}
+
+.FooterList > ul > li {
+  font-size: 13px;
+}
+.FooterList > ul > li > h3 {
+  font-size: 18px;
+}
+
+.Footer > .UpFooter {
+  height: 250px;
+  width: 100%;
+  background-color: #016244;
+}
+
+.Footer > .DownFooter {
+  height: 25px;
+  width: 100%;
+  background-color: #013525;
+}
+
+.UpFooter {
+  display: flex;
+  justify-content: space-around;
+}
