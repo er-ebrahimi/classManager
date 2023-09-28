@@ -12,9 +12,11 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-
-const pages = ['Products', 'Pricing', 'Blog'];
+import { createTheme } from '@mui/material/styles';
+import HomeIcon from '@mui/icons-material/Home';
+const pages = ['Oferta', 'Zadania', 'Kontakt' , 'O nas'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,10 +38,10 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{backgroundColor: "red"}} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <HomeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , fontSize:40 }} />
           <Typography
             variant="h6"
             noWrap

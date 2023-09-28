@@ -1,0 +1,90 @@
+.content {
+  background-color: white;
+  height: 824px;
+}
+
+.rightContent {
+}
+
+.leftContent {
+}
+
+.imageSmile {
+  display: flex;
+  height: 70px;
+  padding: 406px 0px 29px 0px;
+  align-items: center;
+  background: url("../assets/smile.png"), lightgray 50% / cover no-repeat;
+}
+
+
+.selGrid{
+    border: none;
+    background-color: white;
+}
+
+
+
+.textCircle {
+  color: var(--secondary, #ffe600);
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.gridRow {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+}
+
+.gridTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  justify-items: flex-end;
+  gap: 5px;
+}
+
+.featureTitle {
+  text-align: start;
+  width: 349px;
+  height: 32px;
+  color: var(--text-color, #252b42);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+
+.featureDescription {
+  text-align: start;
+  width: 350px;
+  height: 40px;
+  color: var(--second-text-color, var(--stroke, #505050));
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.recatngle {
+  /* width: 15px; */
+  width: 8px;
+  height: 127px;
+  background: var(--secondary, #ffe600);
+}
