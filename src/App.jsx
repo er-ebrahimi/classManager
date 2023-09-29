@@ -11,13 +11,12 @@ import SignUp from "./page/SignUp"
 import Login from "./page/Login"
 import About from "./page/About";
 // import Menu from './Component/Menu'
-
+import Contact from "./page/contact";
 
 
 function App() {
   return (
     <>
-
       <ThemeProvider theme={theme}>
         <Router>
           <ResponsiveAppBar></ResponsiveAppBar>
@@ -26,6 +25,7 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
       </ThemeProvider>
